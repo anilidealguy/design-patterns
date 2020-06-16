@@ -9,7 +9,7 @@ public class Expense {
 	private String expense_cateory;
 	private String business_unit;
 	
-	private Expense() {}
+	public Expense() {}
 	
 	public static class ExpenseBuilder {
 		private long expense_id;

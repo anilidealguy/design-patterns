@@ -20,5 +20,8 @@ public class Client {
 			.toString();
 		
 		
+		
+		Expense e1 = GenericBuilder.of(Expense::new)
+									.build();
 	}
 }
